@@ -12,7 +12,7 @@ const tasks = {
         completed: false
     },{
         text: 'film course',
-        completed: false
+        completed: false,
     }],
     getTasksToDo() {
         return  this.tasks.filter((task) => 
